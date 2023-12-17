@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* navigation bar 1 */
+.logoname {
+  
+  margin-left: 1rem;
+}
+
+/* search icon */
+
+.fa-search {
+  border-radius: 0 1rem 0 0;
+}
+
+/* search box */
+#search {
+  height: 3.15rem;
+  border-radius: 0 0 0 1rem;
+}
+img {
+  height: 12vh;
+  width: 6rem;
+}
+
+
+/* navigation bar 2*/
+
+.navbar2 {
+  background-color: rgba(135, 207, 235, 0.903);
+}
+
+ul li {
+  margin: 0 1rem;
+}
+
+
+.dropdown button {
+  font-size: larger;
+  font-weight: 600;
+}
+
+.nav-link {
+  color: rgb(0, 0, 0);
+  font-weight: 500;
+  font-size: larger;
+}
+
+
+
+/* styling for main section */
+
+.imagebox img {
+  width: 100%;
+  height: 80vh;
+  object-fit: cover;
+  /*object-fit: cover; this property keeps aspect ratio and fills the given dimension */
+}
+
+/* to bring text to center of an image */
+.imagebox {
+  position: relative;
+}
+
+.text-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 20vh;
+  width: 80vw;
+  text-align: center;
+}
+
+.text-overlay h1 {
+  font-size: 3.5rem;
+  color: rgb(255, 255, 255);
+}
+.text-overlay p {
+  font-size: 1.5rem;
+  color: rgba(255, 255, 255, 0.757);
+}
+
+
+/* featured product */
+
+.card .card-img-top {
+  height: 15rem; 
+  object-fit: cover;
+  
+}
+
+/*styling for footer section */
+
+.colitems a {
+  color: white;
+  font-size: 1rem;
+
+}
+

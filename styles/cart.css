@@ -1,0 +1,36 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main{
+    min-height: 80vh;
+  
+}
+
+
+
+.imagebox img{
+    max-height: 25rem;
+    
+}
+.product{
+    font-size: x-large;
+    
+}
+
+
+.quantity p{
+    margin-top: 8rem;
+}
+
+.card-footer{
+    font-family: 'Comfortaa', sans-serif;
+
+}
+

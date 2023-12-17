@@ -1,0 +1,302 @@
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>header.html file<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+External Dependencies:
+Bootstrap CSS file (bootstrap.min.css) is linked to the document 
+Font Awesome library is linked for icons
+Custom CSS file (index.css) is linked for specific styling
+
+Navigation Bar 1:
+first navigation bar (navbar) includes a logo, a toggler button for smaller screens, and a collapsible box
+containing search bar, login button, and cart
+
+Navigation Bar 2:
+The second navigation bar (navbar2) having a list of navigation links and dropdowns for different product 
+categories (Men, Women)
+
+Links and Buttons:
+Various links and buttons are present for navigation, login, and cart
+
+Dropdown Menus:
+Dropdown menus are used for Men and Women categories with subcategories
+
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>footer.html file<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+
+Bootstrap cdn CSS linked
+Font Awesome cdn linked
+Custom CSS file (index.css) linked
+
+Footer Content:
+Footer in a container-fluid with rows.
+Four columns for Women, Men, Kids, and Contact Us, each with sub-links
+Second row with a horizontal rule and copyright information
+
+
+
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>index.html file<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+Body Section:
+Uses jQuery to inject header.html and footer.html content dynamically
+
+Main Content:
+Displays a large image with overlay text ("AmazeDeals" and a tagline)
+
+
+Scripts:
+Includes Bootstrap JavaScript bundle for functionality
+Loads jQuery library from a CDN
+Finally, includes a custom JavaScript file (index.js)
+
+
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>index.css file<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+this css file contains the styling for header.html , footer.html and index.html
+
+Universal Reset:
+The universal selector * is used to reset margins, padding, and set the box-sizing to border-box for all elements.
+
+Logo Name Styling:
+The class .logoname is styled with a specific height and margin
+
+Search Icon and Box Styling:
+The search icon (.fa-search) is styled with a border-radius
+The search box (#search) is given a specific height and border-radius
+
+Image Styling:
+Images (img) are styled with specific height, width, and object-fit properties
+
+List Item Margin:
+List items within unordered lists (ul li) have a margin on both sides
+
+Second Navigation Bar Styling:
+The second navigation bar (.navbar2) has a background color
+
+Dropdown Button Styling:
+Buttons within dropdowns have increased font size and weight
+
+Navigation Link Styling:
+Navigation links (.nav-link) have specific color, font weight, and font size
+
+Image Box Styling:
+Images within a container with the class .imagebox are styled with 100% width, 79vh height, 
+and cover object-fit
+
+Text Overlay Styling:
+Text overlays are positioned relative to the image box
+The h1 and p elements within the text overlay have specific font sizes and colors
+
+Featured Product Styling:
+Styles the images within the cards, ensuring a consistent height and covering dimensions
+
+Styling for footer section:
+Links within columns with the class .colitems have specific color and font size, likely used in a footer
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>headfoot.js file<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+Document Ready Function:
+
+$(document).ready(function(){...}); 
+this ensures that the contained code executes when the document is fully loaded and ready
+
+Dynamic Content Loading:
+$("header").load("../header.html"); loads the content of "header.html" into the <header> element
+$("footer").load("../footer.html"); loads the content of "footer.html" into the <footer> element
+
+
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>Products.html file<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+Header Section:
+Header content injected from an external "header.html" file using jQuery
+
+Main Content:
+used css grid property to align cards
+
+Two sections: "New Fashion" and "Old Fashion."
+Each section contains a title and a row of product cards.
+
+Product Cards:
+Each card includes an image, title, price, and a brief description.
+"Add to Cart" button with a shopping cart icon.
+
+Footer Section:
+Footer content injected from an external "footer.html" file using jQuery.
+
+Scripts:
+Bootstrap JS and jQuery libraries included.
+Custom JavaScript from "index.js" for additional functionality.
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>Products.css file<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+Card Image Styling:
+Targets the .card-img-top class within a .card.
+Sets a fixed height of 200px for card images.
+Uses object-fit: cover; to maintain image aspect ratio and cover the specified height.
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>cart.html file<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+
+used Bootstrap and Font Awesome cdn for styling and icons.
+
+Two-column layout using Bootstrap grid.
+
+Left Column (col-lg-8):
+Displays items in the cart with product image, name, price, and remove button.
+Quantity selection with increase and decrease buttons.
+
+Right Column (col-lg-4):
+Summary card with product cost, shipping charges, delivery charge, and total.
+
+
+External Resources:
+used cdn link of Bootstrap (CSS) and Font Awesome (CSS).
+used cdn link of jQuery library.
+
+
+JavaScript Files:
+headfoot.js: JavaScript file for header and footer.
+cart.js:  JavaScript file for cart functionality.
+
+
+Custom Styling:
+Custom styling through an external CSS file (cart.css).
+
+
+
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>cart.css file<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+
+Font Import:
+Imported the 'Comfortaa' font from Google Fonts
+
+Main Section Styling:
+Sets a minimum height of 80% of the viewport height for the main section.
+
+Imagebox Styling:
+Restricted the maximum height of images within the .imagebox class to 25rem.
+Product Styling:
+
+Sets a larger font size (x-large) for elements with the .product class.
+Quantity Section Styling:
+
+Added margin to the top of paragraphs within the .quantity class for spacing
+
+Card Footer Styling:
+Applies the 'Comfortaa' font to the card footer for a specific font style
+
+
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>cart.js file<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+Variable Declaration:
+Declares a variable count and initializes it to 0
+
+Decrease Function:
+Decreases the value of count by 1 if it's greater than 0
+Updates the HTML element with the ID "quantity" to reflect the updated count
+
+Increase Function:
+Increases the value of count by 1
+Updates the HTML element with the ID "quantity" to reflect the updated count
+
+HTML Interaction:
+The functions interact with the HTML element with the ID "quantity" to display and modify the count
+
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>login.html file<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+External Libraries:
+cdn link of Bootstrap and Font Awesome CSS linked
+
+Custom Styling:
+External CSS file used (login.css) is used 
+
+
+Header and footer injected
+Centered login form
+
+Form 
+Email and password fields
+
+Submit button
+
+Script Files:
+Bootstrap JS and jQuery linked
+Custom script file included (headfoot.js)
+
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>login.css file<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+main element has a minimum height of 100% of the viewport height (min-height: 100vh)
+
+Form Label Style:
+Margin set to 1rem on top and bottom
+Font weight set to 500 (semi-bold)
+Text color set to black
+
+Background Style:
+Background color set for the main element
+Color: #4c956c
+
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>contact.html file<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+
+External Libraries:
+Bootstrap CSS (v5.3.2) and Font Awesome (v6.5.1) libraries are linked
+
+Custom CSS:
+Custom CSS file (contact.css) is linked to the document
+
+Header Section:
+Header content is injected using jQuery
+
+Main Section:
+Contains a container with two columns
+Left column (imagebox) displays an image from Unsplash
+Right column (formbox) contains a form for user contact information
+
+Form Elements:
+Form includes input fields for name, email, and a textarea for a message
+A submit button is included
+
+Footer Section:
+Footer content is injected using jQuery
+
+External Libraries (JavaScript):
+Bootstrap JS and jQuery libraries are linked to this file
+
+Custom JavaScript:
+Custom JavaScript file (headfoot.js) is included for injecting header and footer
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>contact.css file<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+
+Main Section Styling:
+Sets the minimum height of the main section to 100% of the viewport height (min-height: 100vh)
+Applied a background color of #e9c46a to the main section
+
+Label Styling in .formbox:
+Targets labels within elements with the class .formbox
+seted margin to 0.6rem at the top and bottom, creating spacing around the labels
+Text color is set to black
+Font size is set to large.
+ 
